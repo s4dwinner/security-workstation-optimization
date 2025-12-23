@@ -1,0 +1,72 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+*.old
+*~
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+*.log
+logs/
+
+# Sensitive data
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+secrets/
+credentials/
+*.pem
+*.key
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.directory
+.trash-*
+
+# Local configuration
+local-config/
+personal/
+
+# Binary files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test coverage
+coverage/
+*.lcov
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Package manager files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
